@@ -1,7 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,800&display=swap');
-
-
 
 :root {
   --primary-color: rgb(70, 168, 28);
@@ -28,20 +25,21 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-
 }
 
-.titulo{
+.titulo {
   text-align: center;
 }
 
 form {
-display: flex;
-gap: 2rem;
-justify-content: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 
-form input, form label, form button {
+form input,
+form label,
+form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -50,10 +48,9 @@ form input, form label, form button {
 form input {
   font-size: 24px;
   height: 2.8rem;
-  width:15rem;
-  border-radius:5px;
+  width: 15rem;
+  border-radius: 5px;
 }
-
 
 form button {
   border: none;
@@ -64,10 +61,8 @@ form button {
   height: 2.8rem;
   width: 9rem;
   cursor: pointer;
-  border-radius:5px;
-  
+  border-radius: 5px;
 }
-
 
 form input:focus {
   outline: 1px solid var(--primary-color);
@@ -76,6 +71,3 @@ form input:focus {
 form button:hover {
   background: var(--primary-color-darker);
 }
-
-
-
